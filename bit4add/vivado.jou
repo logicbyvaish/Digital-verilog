@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Fri Sep 25 01:50:31 2026
+# Process ID         : 15124
+# Current directory  : C:/Users/vaish/Desktop/Digital/bit4add
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent8168 C:\Users\vaish\Desktop\Digital\bit4add\bit4add.xpr
+# Log file           : C:/Users/vaish/Desktop/Digital/bit4add/vivado.log
+# Journal file       : C:/Users/vaish/Desktop/Digital/bit4add\vivado.jou
+# Running On         : Vaishakh
+# Platform           : Windows 11
+# Operating System   : 26200
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i7-13620H
+# CPU Frequency      : 2918 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 16
+# Host memory        : 16852 MB
+# Swap memory        : 1543 MB
+# Total Virtual      : 18396 MB
+# Available Virtual  : 5285 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/vaish/Desktop/Digital/bit4add/bit4add.xpr
+update_compile_order -fileset sources_1

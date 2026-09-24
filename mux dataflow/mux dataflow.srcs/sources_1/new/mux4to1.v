@@ -1,0 +1,37 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 25.09.2026 02:13:55
+// Design Name: 
+// Module Name: mux4to1
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+module mux4to1 (
+    input I0,
+    input I1,
+    input I2,
+    input I3,
+    input S0,
+    input S1,
+    output Y
+);
+
+assign Y = (~S1 & ~S0 & I0) |
+           (~S1 &  S0 & I1) |
+           ( S1 & ~S0 & I2) |
+           ( S1 &  S0 & I3);
+
+endmodule
