@@ -1,0 +1,68 @@
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Tue Sep 29 00:32:25 2026
+# Process ID         : 13276
+# Current directory  : C:/Users/vaish/Desktop/Digital/demux struct
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent19504 C:\Users\vaish\Desktop\Digital\demux struct\demux_struct.xpr
+# Log file           : C:/Users/vaish/Desktop/Digital/demux struct/vivado.log
+# Journal file       : C:/Users/vaish/Desktop/Digital/demux struct\vivado.jou
+# Running On         : Vaishakh
+# Platform           : Windows 11
+# Operating System   : 26200
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i7-13620H
+# CPU Frequency      : 2918 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 16
+# Host memory        : 16852 MB
+# Swap memory        : 3106 MB
+# Total Virtual      : 19959 MB
+# Available Virtual  : 3850 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/vaish/Desktop/Digital/demux struct/demux_struct.xpr}
+update_compile_order -fileset sources_1
+close_project
+create_project {demux behaviour} {C:/Users/vaish/Desktop/Digital/demux struct/demux behaviour} -part xc7a100tcsg324-1
+file mkdir C:/Users/vaish/Desktop/Digital/demux struct/demux behaviour/demux behaviour.srcs/sources_1/new
+file mkdir C:/Users/vaish/Desktop/Digital/demux struct/demux behaviour/demux behaviour.srcs/sources_1/new
+file mkdir C:/Users/vaish/Desktop/Digital/demux struct/demux behaviour/demux behaviour.srcs/sources_1/new
+file mkdir {C:/Users/vaish/Desktop/Digital/demux struct/demux behaviour/demux behaviour.srcs/sources_1/new}
+close [ open {C:/Users/vaish/Desktop/Digital/demux struct/demux behaviour/demux behaviour.srcs/sources_1/new/demux1to2.v} w ]
+add_files {{C:/Users/vaish/Desktop/Digital/demux struct/demux behaviour/demux behaviour.srcs/sources_1/new/demux1to2.v}}
+file mkdir C:/Users/vaish/Desktop/Digital/demux struct/demux behaviour/demux behaviour.srcs/constrs_1/new
+file mkdir C:/Users/vaish/Desktop/Digital/demux struct/demux behaviour/demux behaviour.srcs/constrs_1/new
+file mkdir {C:/Users/vaish/Desktop/Digital/demux struct/demux behaviour/demux behaviour.srcs/constrs_1/new}
+close [ open {C:/Users/vaish/Desktop/Digital/demux struct/demux behaviour/demux behaviour.srcs/constrs_1/new/demux1to2.xdc} w ]
+add_files -fileset constrs_1 {{C:/Users/vaish/Desktop/Digital/demux struct/demux behaviour/demux behaviour.srcs/constrs_1/new/demux1to2.xdc}}
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+close [ open {C:/Users/vaish/Desktop/Digital/demux struct/demux behaviour/demux behaviour.srcs/sources_1/new/demux1to4.v} w ]
+add_files {{C:/Users/vaish/Desktop/Digital/demux struct/demux behaviour/demux behaviour.srcs/sources_1/new/demux1to4.v}}
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top demux_1to4 [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+close [ open {C:/Users/vaish/Desktop/Digital/demux struct/demux behaviour/demux behaviour.srcs/sources_1/new/demux1to8.v} w ]
+add_files {{C:/Users/vaish/Desktop/Digital/demux struct/demux behaviour/demux behaviour.srcs/sources_1/new/demux1to8.v}}
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top demux1to8 [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top demux_1to8 [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+close_design
+synth_design -rtl -rtl_skip_mlo -name rtl_1
